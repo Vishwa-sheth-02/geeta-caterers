@@ -309,6 +309,7 @@ footer{background:var(--text);color:#fff;padding:52px 0 36px;}
       <button class="nav-link" onclick="showPage('about')">About</button>
       <button class="nav-link" onclick="showPage('services')">Services</button>
       <button class="nav-link" onclick="showPage('menu')">Menu</button>
+      <button class="nav-link" onclick="showPage('venues')">Venues</button>
       <button class="nav-link" onclick="showPage('gallery')">Gallery</button>
       <button class="nav-link" onclick="showPage('contact')">Contact</button>
       <button class="btn-nav" onclick="showPage('contact')">Get a Quote</button>
@@ -325,8 +326,9 @@ footer{background:var(--text);color:#fff;padding:52px 0 36px;}
   <div class="mobile-nav-item" onclick="navTo('about')">About <span>02</span></div>
   <div class="mobile-nav-item" onclick="navTo('services')">Services <span>03</span></div>
   <div class="mobile-nav-item" onclick="navTo('menu')">Menu <span>04</span></div>
-  <div class="mobile-nav-item" onclick="navTo('gallery')">Gallery <span>05</span></div>
-  <div class="mobile-nav-item" onclick="navTo('contact')">Contact <span>06</span></div>
+  <div class="mobile-nav-item" onclick="navTo('venues')">Venues <span>05</span></div>
+  <div class="mobile-nav-item" onclick="navTo('gallery')">Gallery <span>06</span></div>
+  <div class="mobile-nav-item" onclick="navTo('contact')">Contact <span>07</span></div>
   <div class="mobile-contact">
     <p>📞 <strong>9320041553 / 9323141553</strong></p>
     <p>📧 <strong>siddhient08@yahoo.com</strong></p>
@@ -653,6 +655,67 @@ footer{background:var(--text);color:#fff;padding:52px 0 36px;}
         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=600&q=80"><div class="gallery-overlay"></div><div class="gallery-label">Indian Sweets & Farsan</div></div>
         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80"><div class="gallery-overlay"></div><div class="gallery-label">Chef's Signature Dish</div></div>
         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&q=80"><div class="gallery-overlay"></div><div class="gallery-label">Fresh Ingredients</div></div>
+      </div>
+    </div>
+  </section>
+  <footer><div class="container"><div class="footer-bottom" style="border-top:1px solid rgba(255,255,255,0.1);padding-top:20px;margin-top:0;"><span>© 2024 Geeta Caterers.</span><span class="footer-gold">Est. 2000 · Prop. Mr. Amit Sheth</span></div></div></footer>
+</div>
+
+<!-- ========== VENUES ========== -->
+<div id="page-venues" class="page">
+  <section class="page-hero">
+    <div class="container">
+      <p class="section-label">Our Partner Venues</p>
+      <h1 class="page-title">Beautiful Venues, <em style="font-style:italic;color:var(--gold);font-weight:400;">Perfect Events</em></h1>
+      <p style="font-size:15px;color:var(--muted);max-width:580px;line-height:1.8;margin-top:12px;">Geeta Caterers works closely with select banquet halls in Dombivli to offer you a seamless end-to-end celebration experience.</p>
+    </div>
+  </section>
+  <section class="section-pad bg-cream">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:28px;max-width:900px;margin:0 auto;">
+
+        <!-- Venue 1 -->
+        <div style="background:#fff;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);transition:box-shadow .2s,transform .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+          <div style="height:200px;background:linear-gradient(135deg,#fdf4e3,#faebd0);display:flex;align-items:center;justify-content:center;font-size:64px;border-bottom:1px solid var(--border);">🏛️</div>
+          <div style="padding:28px;">
+            <div style="display:inline-block;background:var(--gold-bg);color:var(--gold-d);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:14px;">Dombivli</div>
+            <h2 style="font-family:var(--font-serif);font-size:22px;font-weight:700;color:var(--text);margin-bottom:8px;">Nityanand Banquet Hall</h2>
+            <p style="font-size:13px;color:var(--muted);line-height:1.75;margin-bottom:20px;">A spacious and elegantly decorated banquet hall in Dombivli, ideal for weddings, receptions, engagements and large family functions. Geeta Caterers is a trusted catering partner at this venue.</p>
+            <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:22px;">
+              <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);"><span style="color:var(--gold);font-size:16px;">📍</span> Dombivli, Thane District</div>
+              <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);"><span style="color:var(--gold);font-size:16px;">👥</span> Capacity: 100 – 800 Guests</div>
+              <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);"><span style="color:var(--gold);font-size:16px;">🍽️</span> Exclusive catering by Geeta Caterers</div>
+              <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);"><span style="color:var(--gold);font-size:16px;">🎉</span> Weddings, Receptions, Engagements, Poojas</div>
+            </div>
+            <button class="btn-gold" onclick="showPage('contact')" style="width:100%;padding:13px;">Book This Venue →</button>
+          </div>
+        </div>
+
+        <!-- Venue 2 -->
+        <div style="background:#fff;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);transition:box-shadow .2s,transform .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow)'">
+          <div style="height:200px;background:linear-gradient(135deg,#fdf4e3,#faebd0);display:flex;align-items:center;justify-content:center;font-size:64px;border-bottom:1px solid var(--border);">🌸</div>
+          <div style="padding:28px;">
+            <div style="display:inline-block;background:var(--gold-bg);color:var(--gold-d);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:14px;">Dombivli</div>
+            <h2 style="font-family:var(--font-serif);font-size:22px;font-weight:700;color:var(--text);margin-bottom:8px;">Shubham Banquets</h2>
+            <p style="font-size:13px;color:var(--muted);line-height:1.75;margin-bottom:20px;">Shubham Banquets is a premium celebration venue in Dombivli known for its warm ambience and modern facilities. Perfect for intimate gatherings to grand weddings, with Geeta Caterers handling all catering needs.</p>
+            <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:22px;">
+              <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);"><span style="color:var(--gold);font-size:16px;">📍</span> Dombivli, Thane District</div>
+              <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);"><span style="color:var(--gold);font-size:16px;">👥</span> Capacity: 50 – 600 Guests</div>
+              <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);"><span style="color:var(--gold);font-size:16px;">🍽️</span> Exclusive catering by Geeta Caterers</div>
+              <div style="display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);"><span style="color:var(--gold);font-size:16px;">🎉</span> Weddings, Birthdays, Corporate Events</div>
+            </div>
+            <button class="btn-gold" onclick="showPage('contact')" style="width:100%;padding:13px;">Book This Venue →</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom CTA -->
+      <div style="text-align:center;margin-top:52px;padding:40px;background:#fff;border:1px solid var(--border);border-radius:var(--radius);max-width:620px;margin-left:auto;margin-right:auto;box-shadow:var(--shadow);">
+        <div style="font-size:36px;margin-bottom:14px;">🤝</div>
+        <h3 style="font-family:var(--font-serif);font-size:22px;font-weight:700;color:var(--text);margin-bottom:10px;">Want to Partner With Us?</h3>
+        <p style="font-size:13px;color:var(--muted);line-height:1.8;margin-bottom:22px;">If you own or manage a banquet hall and would like Geeta Caterers as your exclusive catering partner, we'd love to connect with you.</p>
+        <button class="btn-gold" onclick="showPage('contact')">Get in Touch →</button>
       </div>
     </div>
   </section>
